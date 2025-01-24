@@ -1,0 +1,46 @@
+body{
+    font-family: 'Actor', sans-serif;
+    font-size: 20px;
+}
+body{  background-color: white;
+    color: #000;
+}
+
+strong {
+    color:#E2725B
+}
+
+h1{
+    font-size: 42px;
+}
+
+a{
+ display:inline-block;
+ padding: 10px 20px;
+ background-color: #E2725B;
+ color: white;
+ text-decoration: none;
+ border-radius: 25px;
+ font-size: 18px;
+ font-weight: bold;
+ text-align: center;
+ transition: background-color 0.3s, transform 0.3s
+}
+a:hover {
+    background-color: #c3482f;
+    transform: scale(1.05);
+}
+.link-contato{
+    display: inline-block;
+    margin-top: 100%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imagem-contato {
+    width: 20%;
+    height:auto;
+    margin-left: 20%;
+    position: relative;
+    margin-top: -10%;
+}
