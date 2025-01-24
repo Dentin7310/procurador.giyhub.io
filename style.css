@@ -44,3 +44,14 @@ a:hover {
     position: relative;
     margin-top: -10%;
 }
+.imagem-contato{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .imagem-contato {
+        visibility:hidden;
+        display: none !important;
+    }
+}
